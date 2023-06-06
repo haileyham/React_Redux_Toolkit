@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { changeAge, changeName } from "./store";
+import { changeAge, changeName } from './store/userSlice.js';
 
 function App() {
 

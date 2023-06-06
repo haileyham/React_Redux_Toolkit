@@ -6,11 +6,14 @@ let user = createSlice({
   reducers: {
     changeName(state) {
       state.name = "ham" // name의 hailey를 ham으로 변경 
+    },
+    changeAge(state, actions) {
+      state.age += actions.payload
     }
   }
 })
 
-export let { changeName } = user.actions //위에서 만든 변경함수 export
+export let { changeName, changeAge } = user.actions //위에서 만든 변경함수 export
 
 export default configureStore({
   reducer: {

@@ -1,0 +1,6 @@
+1. 기본 셋팅
+[Project 생성 : reduxtoolkit]
+npx create-react-app reduxtoolkit --template basic-react
+
+[React Redux Toolkit]
+npm install @reduxjs/toolkit react-redux
